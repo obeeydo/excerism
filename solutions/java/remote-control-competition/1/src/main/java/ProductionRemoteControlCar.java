@@ -1,0 +1,22 @@
+class ProductionRemoteControlCar implements RemoteControlCar{
+
+    public void drive() {
+//        throw new UnsupportedOperationException("Please implement the ProductionRemoteControlCar.drive() method");
+        ProductionRemoteControlCar prod = new ProductionRemoteControlCar();
+        prod.drive();
+        prod.getDistanceTravelled();
+
+    }
+
+    public int getDistanceTravelled() {
+        throw new UnsupportedOperationException("Please implement the ProductionRemoteControlCar.getDistanceTravelled() method");
+    }
+
+    public int getNumberOfVictories() {
+        throw new UnsupportedOperationException("Please implement the ProductionRemoteControlCar.getNumberOfVictories() method");
+    }
+
+    public void setNumberOfVictories(int numberOfVictories) {
+        throw new UnsupportedOperationException("Please implement the ProductionRemoteControlCar.setNumberOfVictories() method");
+    }
+}
